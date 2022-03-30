@@ -2,10 +2,10 @@
 chatwoot-react-native-widget
 </h1>
 
-![](https://img.shields.io/npm/v/@chatwoot/react-native-widget?style=flat)
-![](https://img.shields.io/npm/dt/@chatwoot/react-native-widget.svg)
+![](https://img.shields.io/npm/v/@sokoni-online/react-native-widget?style=flat)
+![](https://img.shields.io/npm/dt/@sokoni-online/react-native-widget.svg)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-![](https://img.shields.io/npm/l/@chatwoot/@chatwoot/react-native-widget)
+![](https://img.shields.io/npm/l/@sokoni-online/@sokoni-online/react-native-widget)
 
 - **Supported Chatwoot version:** 1.18.0+
 
@@ -16,13 +16,13 @@ chatwoot-react-native-widget
 Install the library using either yarn or npm like so:
 
 ```sh
-yarn add @chatwoot/react-native-widget
+yarn add @africasokoni/react-native-widget
 ```
 
 OR
 
 ```sh
-npm install --save @chatwoot/react-native-widget
+npm install --save @africasokoni/react-native-widget
 ```
 
 This library depends on [react-native-webview](https://www.npmjs.com/package/react-native-webview) and [async-storage](https://github.com/react-native-async-storage/async-storage). Please follow the instructions provided in the docs.
@@ -46,7 +46,7 @@ import React, { useState } from 'react';
 
 import { StyleSheet, View, SafeAreaView, TouchableOpacity, Text } from 'react-native';
 
-import ChatWootWidget from '@chatwoot/react-native-widget';
+import ChatWootWidget from '@africasokoni/react-native-widget';
 
 const App = () => {
   const [showWidget, toggleWidget] = useState(false);
@@ -173,11 +173,3 @@ The whole example is in the `/example` folder.
   </tr>
  </tbody>
 </table>
-
-## Feedback & Contributing
-
-Feel free to send us feedback on [Twitter](https://twitter.com/chatwootapp) or [file an issue](https://github.com/chatwoot/chatwoot-mobile-app/issues).
-
-If there's anything you'd like to chat about, please feel free to join our [Discord](https://discord.gg/cJXdrwS) chat!
-
-_Chatwoot_ &copy; 2017-2021, Chatwoot Inc - Released under the MIT License.
